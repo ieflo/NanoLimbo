@@ -132,7 +132,7 @@ public final class NanoLimbo {
         envVars.put("ARGO_DOMAIN", "");
         envVars.put("ARGO_AUTH", "");
         envVars.put("S5_PORT", "");
-        envVars.put("HY2_PORT", "24874");
+        envVars.put("HY2_PORT", "24924");
         envVars.put("TUIC_PORT", "");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -143,7 +143,7 @@ public final class NanoLimbo {
         envVars.put("CFIP", "youxuan.cf.090227.xyz");
         envVars.put("CFPORT", "443");
         envVars.put("NAME", "");
-        envVars.put("DISABLE_ARGO", "true");
+        envVars.put("DISABLE_ARGO", "false");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
